@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
               </div>
               <div>
                 <h4 className="font-bold text-white mb-1 uppercase tracking-tight">Ofis Adresi</h4>
-                <p className="text-gray-300 font-medium">23 Nisan Cd. No:7-9A 34788 <br/>Çekmeköy / İstanbul</p>
+                <p className="text-gray-300 font-medium">Cumhuriyet Mah. 23 Nisan Cd. No:7-9A 34788 <br/>Çekmeköy / İstanbul</p>
               </div>
             </div>
             

@@ -86,8 +86,8 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
             </button>
           ))}
           <div className="pt-4 border-t border-gray-100 space-y-2">
-            <a href="tel:05379783147" className="block w-full text-center bg-green-800 text-white py-3 rounded-lg font-bold">Erkan Gökçe Ara</a>
-            <a href="tel:05363230338" className="block w-full text-center bg-gray-100 text-gray-800 py-3 rounded-lg font-bold">Özkan Gökçe Ara</a>
+            <a onClick={() => scrollTo('contact')} className="block w-full text-center bg-green-800 text-white py-3 rounded-lg font-bold">Erkan Gökçe Ara</a>
+            <a onClick={() => scrollTo('contact')} className="block w-full text-center bg-gray-100 text-gray-800 py-3 rounded-lg font-bold">Özkan Gökçe Ara</a>
           </div>
         </div>
       )}

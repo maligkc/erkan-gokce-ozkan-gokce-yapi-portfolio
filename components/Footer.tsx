@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-3 text-sm text-gray-600 mt-4">
               <li className="flex items-start gap-2">
                 <span className="text-green-800 font-bold">Adres:</span>
-                <span>23 Nisan Cd. No:7-9A 34788 Çekmeköy/İstanbul</span>
+                <span>Cumhuriyet Mah. 23 Nisan Cd. No:7-9A 34788 Çekmeköy/İstanbul</span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-green-800 font-bold">Erkan Gökçe:</span>
@@ -54,8 +54,10 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="pt-8 border-t border-gray-100 flex flex-col md:flex-row justify-center items-center gap-4 text-gray-400 text-xs text-center md:text-left">
-          <p>© 2024 ERKAN & ÖZKAN GÖKÇE YAPI Tüm Hakları Saklıdır. Geleceği Birlikte İnşa Ediyoruz.</p>
+          <p>© 2026 ERKAN GÖKÇE & ÖZKAN GÖKÇE YAPI TÜM HAKLARI SAKLIDIR</p>
+          
         </div>
+        <div className="text-center text-xs text-gray-400 mt-2">GELECEĞİ BİRLİKTE İNŞA EDİYORUZ</div>
       </div>
     </footer>
   );

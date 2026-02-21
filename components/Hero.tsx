@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
     <div className="relative h-[85vh] flex items-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?auto=format&fit=crop&q=80&w=2070" 
+          src="/images/hero-example-image.jpg" 
           alt="Boutique Construction Project" 
           className="w-full h-full object-cover"
         />

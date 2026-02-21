@@ -7,7 +7,7 @@ const PROJECTS_DATA: Project[] = [
     id: '1',
     title: '2+1 seçeneğiyle 18 Bağımsız Bölümlü Projemiz',
     category: 'Konut',
-    location: 'Cumhuriyet Mah.',
+    location: 'Cumhuriyet Mah. / Çekmeköy',
     imageUrl: '/images/projects/1.jpg',
     description: '2+1 daire tiplerinden oluşan, 6 katlı ve toplam 18 bağımsız bölümlü konut projesi.'
   },
@@ -15,7 +15,7 @@ const PROJECTS_DATA: Project[] = [
     id: '2',
     title: '2+1 seçeneğiyle 16 Bağımsız Bölümlü Projemiz',
     category: 'Konut',
-    location: 'Cumhuriyet Mah.',
+    location: 'Cumhuriyet Mah. / Çekmeköy',
     imageUrl: '/images/projects/3.jpg',
     description: '2+1 daire tiplerinden oluşan, 8 katlı ve toplam 16 bağımsız bölümlü konut projesi.'
   },
@@ -23,7 +23,7 @@ const PROJECTS_DATA: Project[] = [
     id: '3',
     title: '2+1 seçeneğiyle 10 Bağımsız Bölümlü Projemiz',
     category: 'Konut',
-    location: 'Aydınlar Mah.',
+    location: 'Aydınlar Mah. / Çekmeköy',
     imageUrl: '/images/projects/2.jpg',
     description: '2+1 daire tiplerinden oluşan, 5 katlı ve toplam 10 bağımsız bölümlü konut projesi.'
   },
@@ -31,7 +31,7 @@ const PROJECTS_DATA: Project[] = [
     id: '4',
     title: '2+1 ve 3+1 seçeneğiyle 14 Bağımsız Bölümlü Projemiz',
     category: 'Konut',
-    location: 'Aydınlar Mah.',
+    location: 'Aydınlar Mah. / Çekmeköy',
     imageUrl: '/images/projects/4.jpg',
     description: '2+1 ve 3+1 daire tiplerinden oluşan, 7 katlı ve toplam 14 bağımsız bölümlü konut projesi.'
   },
@@ -39,7 +39,7 @@ const PROJECTS_DATA: Project[] = [
     id: '5',
     title: '2+1 seçeneğiyle 10 Bağımsız Bölümlü Projemiz',
     category: 'Konut',
-    location: 'Cumhuriyet Mah.',
+    location: 'Cumhuriyet Mah. / Çekmeköy',
     imageUrl: '/images/projects/5.jpg',
     description: '2+1 daire tiplerinden oluşan, 5 katlı ve toplam 10 bağımsız bölümlü konut projesi.'
   },
@@ -47,7 +47,7 @@ const PROJECTS_DATA: Project[] = [
     id: '6',
     title: '2+1 seçeneğiyle 12 Bağımsız Bölümlü Projemiz',
     category: 'Konut',
-    location: 'Aydınlar Mah.',
+    location: 'Aydınlar Mah. / Çekmeköy',
     imageUrl: '/images/projects/6.jpg',
     description: '2+1 daire tiplerinden oluşan, 6 katlı ve toplam 12 bağımsız bölümlü konut projesi.'
   }
@@ -59,7 +59,7 @@ const Projects: React.FC = () => {
       <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-4">
         <div>
           <h2 className="text-green-800 font-bold uppercase text-sm mb-2 tracking-widest border-l-4 border-green-800 pl-3">Neler Yaptık?</h2>
-          <h3 className="text-3xl font-bold text-gray-900 uppercase">Projelerimiz</h3>
+          <h3 className="text-3xl font-bold text-gray-900 uppercase">Örnek Projelerimiz</h3>
         </div>
       </div>
 
